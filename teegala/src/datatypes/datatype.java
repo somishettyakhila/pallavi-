@@ -2,27 +2,49 @@ package datatypes;
 
 public class datatype {
 
-		public static void main(String[] args) {
-			byte byteVar = 100;              
-	        short shortVar = 32000;          
-	        int intVar = 100000;             
-	        long longVar = 10000000000L;     
-	        float floatVar = 5.75f;        
-	        double doubleVar = 19.99;        
-	        char charVar = 'A';             
-	        boolean boolVar = true; 
-	        String str = "Hello Java!";     
-	        System.out.println("Byte Value: " + byteVar);
-	        System.out.println("Short Value: " + shortVar);
-	        System.out.println("Int Value: " + intVar);
-	        System.out.println("Long Value: " + longVar);
-	        System.out.println("Float Value: " + floatVar);
-	        System.out.println("Double Value: " + doubleVar);
-	        System.out.println("Char Value: " + charVar);
-	        System.out.println("Boolean Value: " + boolVar);
-	       
-	        System.out.println("String Value: " + str);
-	    }
-	}
+	
+		    public static void main(String[] args) {
+		       
+		        int a = 10, b = 5;
+		        System.out.println("Arithmetic Operators:");
+		        System.out.println("Addition: " + (a + b)); 
+		        System.out.println("Subtraction: " + (a - b)); 
+		        System.out.println("Multiplication: " + (a * b));
+		        System.out.println("Division: " + (a / b)); 
+		        System.out.println("Modulus: " + (a % b)); 
+
+		       
+		        System.out.println("\nRelational Operators:");
+		        System.out.println("a > b: " + (a > b)); 
+		        System.out.println("a < b: " + (a < b)); 
+		        System.out.println("a == b: " + (a == b));
+		        System.out.println("a != b: " + (a != b));
+
+		      
+		        boolean x = true, y = false;
+		        System.out.println("\nLogical Operators:");
+		        System.out.println("x && y: " + (x && y)); 
+		        System.out.println("x || y: " + (x || y)); 
+		        System.out.println("!x: " + (!x));
+
+		      
+		        System.out.println("\nBitwise Operators:");
+		        System.out.println("a & b: " + (a & b)); 
+		        System.out.println("a | b: " + (a | b)); 
+		        System.out.println("a ^ b: " + (a ^ b)); 
+		        System.out.println("~a: " + (~a)); 
+
+		      
+		        System.out.println("\nAssignment Operators:");
+		        int c = a; 
+		        c += b; 
+		        System.out.println("c += b: " + c);
+		        c -= b; 
+		        System.out.println("c -= b: " + c);
+		    }
+		
+
+		   }
+	
 
 
