@@ -2,7 +2,7 @@ package com.tnsif.task7;
 
 import java.util.ArrayList;
 
-public class AutoBoxingExample2 {
+public class c {
     public static void main(String[] args) {
         ArrayList<Integer> list = new ArrayList<>();
 
